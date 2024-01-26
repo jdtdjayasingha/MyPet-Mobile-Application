@@ -1,3 +1,4 @@
+import 'package:basic_mobile_application/animals/cat.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,6 +7,18 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
+  }
+}
+
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -86,14 +99,20 @@ class MyApp extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Cat()),
+                              );
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
-                                      color: Colors.black.withOpacity(.05),
+                                      color: Colors.black.withOpacity(.1),
                                       offset: const Offset(0, 0),
                                       blurRadius: 20,
                                       spreadRadius: 3)
@@ -136,7 +155,7 @@ class MyApp extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
-                                      color: Colors.black.withOpacity(.05),
+                                      color: Colors.black.withOpacity(.1),
                                       offset: const Offset(0, 0),
                                       blurRadius: 20,
                                       spreadRadius: 3)
@@ -179,7 +198,7 @@ class MyApp extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                                 boxShadow: [
                                   BoxShadow(
-                                      color: Colors.black.withOpacity(.05),
+                                      color: Colors.black.withOpacity(.1),
                                       offset: const Offset(0, 0),
                                       blurRadius: 20,
                                       spreadRadius: 3)
@@ -231,7 +250,7 @@ class MyApp extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   boxShadow: [
                                     BoxShadow(
-                                        color: Colors.black.withOpacity(.05),
+                                        color: Colors.black.withOpacity(.1),
                                         offset: const Offset(0, 0),
                                         blurRadius: 20,
                                         spreadRadius: 3)
@@ -274,7 +293,7 @@ class MyApp extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   boxShadow: [
                                     BoxShadow(
-                                        color: Colors.black.withOpacity(.05),
+                                        color: Colors.black.withOpacity(.1),
                                         offset: const Offset(0, 0),
                                         blurRadius: 20,
                                         spreadRadius: 3)
@@ -317,7 +336,7 @@ class MyApp extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(10),
                                   boxShadow: [
                                     BoxShadow(
-                                        color: Colors.black.withOpacity(.05),
+                                        color: Colors.black.withOpacity(.1),
                                         offset: const Offset(0, 0),
                                         blurRadius: 20,
                                         spreadRadius: 3)
