@@ -13,7 +13,7 @@ class Parrot extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 66,
+        toolbarHeight: 62,
         backgroundColor: Colors.white,
         elevation: 5,
         shadowColor: const Color.fromARGB(255, 255, 255, 255),
@@ -56,6 +56,7 @@ class Parrot extends StatelessWidget {
         ],
       ),
       drawer: Drawer(
+        elevation: 0,
         shape: const BeveledRectangleBorder(
           borderRadius: BorderRadius.zero,
         ),
@@ -70,10 +71,10 @@ class Parrot extends StatelessWidget {
                 );
               },
               child: const SizedBox(
-                height: 75,
+                height: 70,
                 child: DrawerHeader(
                   decoration: BoxDecoration(
-                    color: Color.fromARGB(10, 0, 0, 0),
+                    color: Colors.white,
                   ),
                   child: Text(
                     'MY PET',
@@ -87,12 +88,17 @@ class Parrot extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: const Text(
-                "Cat",
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  "Cat",
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {
@@ -103,12 +109,17 @@ class Parrot extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text(
-                'Parrot',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  'Parrot',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {
@@ -119,12 +130,17 @@ class Parrot extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text(
-                'Dog',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  'Dog',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {
@@ -135,12 +151,17 @@ class Parrot extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text(
-                'Tortoise',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  'Tortoise',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {
@@ -151,12 +172,17 @@ class Parrot extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text(
-                'Fish',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  'Fish',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {
@@ -167,12 +193,17 @@ class Parrot extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text(
-                'Rabbit',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              title: const Padding(
+                padding: EdgeInsets.only(
+                  left: 15,
+                ),
+                child: Text(
+                  'Rabbit',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               onTap: () {

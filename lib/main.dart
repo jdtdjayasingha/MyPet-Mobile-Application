@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          toolbarHeight: 66,
+          toolbarHeight: 62,
           backgroundColor: Colors.white,
           elevation: 5,
           shadowColor: const Color.fromARGB(255, 255, 255, 255),
@@ -91,10 +91,10 @@ class HomePage extends StatelessWidget {
                   );
                 },
                 child: const SizedBox(
-                  height: 75,
+                  height: 70,
                   child: DrawerHeader(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(250, 240, 242, 245),
+                      color: Colors.white,
                     ),
                     child: Text(
                       'MY PET',
@@ -108,12 +108,17 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title: const Text(
-                  "Cat",
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    "Cat",
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -124,12 +129,17 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text(
-                  'Parrot',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    'Parrot',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -140,12 +150,17 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text(
-                  'Dog',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    'Dog',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -156,12 +171,17 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text(
-                  'Tortoise',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    'Tortoise',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -172,12 +192,17 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text(
-                  'Fish',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    'Fish',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -188,12 +213,17 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text(
-                  'Rabbit',
-                  style: TextStyle(
-                    color: Colors.grey,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w600,
+                title: const Padding(
+                  padding: EdgeInsets.only(
+                    left: 15,
+                  ),
+                  child: Text(
+                    'Rabbit',
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 19,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -275,7 +305,7 @@ class HomePage extends StatelessWidget {
                                 children: [
                                   Container(
                                     height: 120,
-                                    width: 125,
+                                    width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
                                         image: AssetImage(
@@ -324,7 +354,7 @@ class HomePage extends StatelessWidget {
                                 children: [
                                   Container(
                                     height: 120,
-                                    width: 125,
+                                    width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
                                         image: AssetImage(
@@ -374,7 +404,7 @@ class HomePage extends StatelessWidget {
                                 children: [
                                   Container(
                                     height: 120,
-                                    width: 125,
+                                    width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
                                         image: AssetImage(
@@ -433,7 +463,7 @@ class HomePage extends StatelessWidget {
                                   children: [
                                     Container(
                                       height: 120,
-                                      width: 125,
+                                      width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
                                           image: AssetImage(
@@ -483,7 +513,7 @@ class HomePage extends StatelessWidget {
                                   children: [
                                     Container(
                                       height: 120,
-                                      width: 125,
+                                      width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
                                           image: AssetImage(
@@ -533,7 +563,7 @@ class HomePage extends StatelessWidget {
                                   children: [
                                     Container(
                                       height: 120,
-                                      width: 125,
+                                      width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
                                           image: AssetImage(
