@@ -28,6 +28,7 @@ class HomePage extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
+          toolbarHeight: 66,
           backgroundColor: Colors.white,
           elevation: 5,
           shadowColor: const Color.fromARGB(255, 255, 255, 255),
@@ -39,21 +40,92 @@ class HomePage extends StatelessWidget {
               fontWeight: FontWeight.w700,
             ),
           ),
+          automaticallyImplyLeading: false,
           actions: [
             Padding(
-              padding: const EdgeInsets.only(
-                right: 5,
-              ),
-              child: IconButton(
-                onPressed: () {},
-                icon: const Icon(
-                  Icons.menu_rounded,
-                  size: 35,
-                  color: Colors.black,
-                ),
+              padding: const EdgeInsets.only(right: 10),
+              child: Builder(
+                builder: (BuildContext context) {
+                  return IconButton(
+                    icon: const Icon(
+                      Icons.menu_rounded,
+                      size: 35,
+                    ),
+                    onPressed: () {
+                      Scaffold.of(context).openDrawer();
+                    },
+                    tooltip:
+                        MaterialLocalizations.of(context).openAppDrawerTooltip,
+                  );
+                },
               ),
             ),
           ],
+        ),
+        drawer: Drawer(
+          shape: const BeveledRectangleBorder(
+            borderRadius: BorderRadius.zero,
+          ),
+          backgroundColor: Colors.white,
+          child: ListView(
+            children: [
+              const SizedBox(
+                height: 75,
+                child: DrawerHeader(
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(10, 0, 0, 0),
+                  ),
+                  child: Text(
+                    'MY PET',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+              ),
+              ListTile(
+                title: const Text("Cat"),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Cat()),
+                  );
+                },
+              ),
+              ListTile(
+                title: const Text('Parrot'),
+                onTap: () {
+                  // Handle item 2 tap
+                },
+              ),
+              ListTile(
+                title: const Text('Dog'),
+                onTap: () {
+                  // Handle item 2 tap
+                },
+              ),
+              ListTile(
+                title: const Text('Tortoise'),
+                onTap: () {
+                  // Handle item 2 tap
+                },
+              ),
+              ListTile(
+                title: const Text('Fish'),
+                onTap: () {
+                  // Handle item 2 tap
+                },
+              ),
+              ListTile(
+                title: const Text('Rabbit'),
+                onTap: () {
+                  // Handle item 2 tap
+                },
+              ),
+            ],
+          ),
         ),
         body: SingleChildScrollView(
           child: Padding(
