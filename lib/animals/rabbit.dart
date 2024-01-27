@@ -197,24 +197,24 @@ class Rabbit extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "RABBIT",
+                  "RABBITS",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/rabbits.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 30,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     Rabbits are furry animals with long ears and a fluffy tail. They come in different colors like brown, white, and gray. Rabbits hop around using their strong hind legs, and they can run very fast when they need to. They like to eat carrots, lettuce, and other green vegetables. Rabbits are known for breeding quickly, and a female rabbit is called a doe while a male is called a buck. Baby rabbits are called kittens or kits. \n     They live in burrows underground to stay safe from predators like foxes and hawks. Rabbits are gentle creatures that enjoy being petted and cuddled. They make good pets for people who have enough space for them to run and play. \n      Taking care of a rabbit involves providing them with fresh food, clean water, and a comfortable place to rest. Rabbits are cute and lovable animals that bring joy to many people around the world.",
                 style: TextStyle(
                   fontSize: 15,
                 ),

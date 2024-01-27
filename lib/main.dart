@@ -235,7 +235,7 @@ class HomePage extends StatelessWidget {
                   height: 10,
                 ),
                 const Text(
-                  "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                  "     Pets are our friends because they bring joy and companionship into our lives. Whether it's a cuddly cat, a playful dog, or a chirping bird, pets offer unconditional love and support. They listen to our secrets without judgment and provide comfort when we're feeling down. \n      Taking care of a pet teaches responsibility and empathy. Pets make our homes happier and our hearts fuller. They remind us to appreciate the simple joys in life and to cherish the bond we share with them. ",
                   style: TextStyle(
                     fontSize: 15,
                   ),

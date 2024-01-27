@@ -197,24 +197,24 @@ class Tortoise extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "TORTOISE",
+                  "TORTOISES",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/tortoises.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 0,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     The tortoise is a slow-moving reptile with a hard shell covering its body. It is known for its long lifespan and calm demeanor. Tortoises are found in various parts of the world, living in different habitats such as deserts, forests, and grasslands. They have adapted to their environments by developing thick, sturdy shells that provide protection from predators.\n     Tortoises are herbivores, meaning they primarily eat plants and vegetation. They have a unique way of moving, using their strong legs and claws to slowly crawl along the ground. Despite their slow pace, tortoises are resilient creatures that have survived for millions of years.\n      People often keep tortoises as pets because of their docile nature and low maintenance requirements. However, it's important to provide them with proper care, including a suitable habitat, proper diet, and regular veterinary check-ups. Overall, tortoises are fascinating animals that teach us about patience, resilience, and the importance of taking things slow.",
                 style: TextStyle(
                   fontSize: 15,
                 ),

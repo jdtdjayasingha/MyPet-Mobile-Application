@@ -197,24 +197,24 @@ class Parrot extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "PARROT",
+                  "PARROTS",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/parrots.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 30,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     The parrot is a colorful bird found in warm climates around the world. It has a curved beak, strong claws, and bright feathers. Parrots are known for their ability to mimic human speech and other sounds they hear. \n      They are social creatures, often living in flocks and communicating with each other through squawks and chirps. In the wild, parrots eat fruits, nuts, seeds, and sometimes insects. Some species of parrots are popular as pets because of their intelligence and playful nature. \n     However, it's important to remember that parrots require lots of attention, care, and a proper environment to thrive as pets. Additionally, owning a parrot is a big responsibility as they can live for many years. Overall, parrots are fascinating birds that bring joy to many people with their vibrant colors and entertaining behaviors.",
                 style: TextStyle(
                   fontSize: 15,
                 ),

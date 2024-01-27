@@ -197,24 +197,24 @@ class Cat extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "CAT",
+                  "CATS",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/cats.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 30,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     Cats are furry animals that many people keep as pets. They come in different colors and sizes. Cats have soft fur and long tails. They like to sleep a lot, sometimes in cozy spots like on a bed or in a sunny spot by a window. Cats are known for being independent creatures. \n      They groom themselves by licking their fur with their rough tongues. Cats also like to play, chasing after toys or even just a piece of string. Some cats like to go outside and explore, while others prefer to stay indoors. They communicate with different sounds like meowing, purring, and hissing.\n     Cats are carnivores, which means they eat meat. They enjoy meals of cat food or sometimes even small animals like mice. Cats can make great companions for people who enjoy their quiet company and low-maintenance care.",
                 style: TextStyle(
                   fontSize: 15,
                 ),

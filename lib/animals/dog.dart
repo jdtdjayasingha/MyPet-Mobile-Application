@@ -197,24 +197,24 @@ class Dog extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "DOG",
+                  "DOGS",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/dogs.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 30,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     Dogs are special animals that many people love. They come in all shapes and sizes, from tiny Chihuahuas to big Great Danes. Dogs are known for being loyal companions to humans. They can make us happy with their wagging tails and playful behavior. \n     Some dogs are trained to help people with disabilities, like guide dogs for the blind or therapy dogs for those who are sick or lonely. Dogs need love, food, water, and exercise to stay healthy and happy. \n     They enjoy going for walks, playing fetch, and cuddling with their owners. Dogs communicate with us through barking, wagging their tails, and using their body language. It's important to take good care of dogs and treat them kindly because they are not just pets, but part of our families.",
                 style: TextStyle(
                   fontSize: 15,
                 ),

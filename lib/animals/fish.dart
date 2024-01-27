@@ -197,24 +197,24 @@ class Fish extends StatelessWidget {
             children: [
               const Center(
                 child: Text(
-                  "FISH",
+                  "FISHES",
                   style: TextStyle(
                     color: Colors.black,
-                    fontSize: 20,
+                    fontSize: 35,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
               Center(
                 child: Image.asset(
-                  "assets/petFriend.png",
+                  "assets/fishes.png",
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 30,
               ),
               const Text(
-                "     Pets bring joy and companionship to our lives. They come in various forms, like dogs, cats, and birds, offering unconditional love. Pets provide emotional support, reduce stress, and teach responsibility. \n      Their playful antics bring laughter and create lasting bonds. Caring for a pet fosters empathy and a sense of purpose. In return, our furry, feathered, or scaly friends become cherished members of the family, making our lives richer and more fulfilling.",
+                "     Fish are aquatic animals that live in water. They come in many shapes, sizes, and colors. Some common types of fish include goldfish, trout, and salmon. Fish breathe through their gills, which extract oxygen from the water. They use fins to swim and navigate through their underwater world. Fish eat a variety of foods, including plants, smaller fish, and insects.\n     People around the world enjoy eating fish because they are a good source of protein and nutrients. Fishing is a popular activity for sport and for catching fish to eat. However, it's important to fish responsibly and sustainably to protect fish populations and the health of the oceans.\n     In addition to being important for food, fish also play a crucial role in the ecosystem. They help control populations of other aquatic organisms and are a food source for larger animals like birds and mammals. Protecting fish habitats and ensuring clean water is essential for the survival of these fascinating creatures.",
                 style: TextStyle(
                   fontSize: 15,
                 ),
