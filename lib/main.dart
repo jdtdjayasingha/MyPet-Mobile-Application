@@ -1,4 +1,9 @@
 import 'package:basic_mobile_application/animals/cat.dart';
+import 'package:basic_mobile_application/animals/dog.dart';
+import 'package:basic_mobile_application/animals/fish.dart';
+import 'package:basic_mobile_application/animals/parrot.dart';
+import 'package:basic_mobile_application/animals/rabbit.dart';
+import 'package:basic_mobile_application/animals/tortoise.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,18 +37,26 @@ class HomePage extends StatelessWidget {
           backgroundColor: Colors.white,
           elevation: 5,
           shadowColor: const Color.fromARGB(255, 255, 255, 255),
-          title: const Text(
-            "MY PET",
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 20,
-              fontWeight: FontWeight.w700,
+          title: GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const HomePage()),
+              );
+            },
+            child: const Text(
+              "MY PET",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontWeight: FontWeight.w700,
+              ),
             ),
           ),
           automaticallyImplyLeading: false,
           actions: [
             Padding(
-              padding: const EdgeInsets.only(right: 10),
+              padding: const EdgeInsets.only(right: 5),
               child: Builder(
                 builder: (BuildContext context) {
                   return IconButton(
@@ -63,30 +76,46 @@ class HomePage extends StatelessWidget {
           ],
         ),
         drawer: Drawer(
+          elevation: 0,
           shape: const BeveledRectangleBorder(
             borderRadius: BorderRadius.zero,
           ),
           backgroundColor: Colors.white,
           child: ListView(
             children: [
-              const SizedBox(
-                height: 75,
-                child: DrawerHeader(
-                  decoration: BoxDecoration(
-                    color: Color.fromARGB(10, 0, 0, 0),
-                  ),
-                  child: Text(
-                    'MY PET',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w700,
+              GestureDetector(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const HomePage()),
+                  );
+                },
+                child: const SizedBox(
+                  height: 75,
+                  child: DrawerHeader(
+                    decoration: BoxDecoration(
+                      color: Color.fromARGB(250, 240, 242, 245),
+                    ),
+                    child: Text(
+                      'MY PET',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
                   ),
                 ),
               ),
               ListTile(
-                title: const Text("Cat"),
+                title: const Text(
+                  "Cat",
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
                   Navigator.push(
                     context,
@@ -95,33 +124,83 @@ class HomePage extends StatelessWidget {
                 },
               ),
               ListTile(
-                title: const Text('Parrot'),
+                title: const Text(
+                  'Parrot',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
-                  // Handle item 2 tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Parrot()),
+                  );
                 },
               ),
               ListTile(
-                title: const Text('Dog'),
+                title: const Text(
+                  'Dog',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
-                  // Handle item 2 tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Dog()),
+                  );
                 },
               ),
               ListTile(
-                title: const Text('Tortoise'),
+                title: const Text(
+                  'Tortoise',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
-                  // Handle item 2 tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Tortoise()),
+                  );
                 },
               ),
               ListTile(
-                title: const Text('Fish'),
+                title: const Text(
+                  'Fish',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
-                  // Handle item 2 tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Fish()),
+                  );
                 },
               ),
               ListTile(
-                title: const Text('Rabbit'),
+                title: const Text(
+                  'Rabbit',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
                 onTap: () {
-                  // Handle item 2 tap
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const Rabbit()),
+                  );
                 },
               ),
             ],
@@ -220,7 +299,13 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Parrot()),
+                              );
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
@@ -263,7 +348,14 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                           GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const Dog(),
+                                ),
+                              );
+                            },
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.white,
@@ -315,7 +407,14 @@ class HomePage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Tortoise(),
+                                  ),
+                                );
+                              },
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
@@ -358,7 +457,14 @@ class HomePage extends StatelessWidget {
                               ),
                             ),
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Fish(),
+                                  ),
+                                );
+                              },
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,
@@ -401,7 +507,14 @@ class HomePage extends StatelessWidget {
                               ),
                             ),
                             GestureDetector(
-                              onTap: () {},
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const Rabbit(),
+                                  ),
+                                );
+                              },
                               child: Container(
                                 decoration: BoxDecoration(
                                   color: Colors.white,

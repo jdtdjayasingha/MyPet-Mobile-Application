@@ -1,3 +1,8 @@
+import 'package:basic_mobile_application/animals/dog.dart';
+import 'package:basic_mobile_application/animals/fish.dart';
+import 'package:basic_mobile_application/animals/parrot.dart';
+import 'package:basic_mobile_application/animals/rabbit.dart';
+import 'package:basic_mobile_application/animals/tortoise.dart';
 import 'package:basic_mobile_application/main.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +36,7 @@ class Cat extends StatelessWidget {
         automaticallyImplyLeading: false,
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 10),
+            padding: const EdgeInsets.only(right: 5),
             child: Builder(
               builder: (BuildContext context) {
                 return IconButton(
@@ -107,7 +112,10 @@ class Cat extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle item 2 tap
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Parrot()),
+                );
               },
             ),
             ListTile(
@@ -120,7 +128,10 @@ class Cat extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle item 2 tap
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Dog()),
+                );
               },
             ),
             ListTile(
@@ -133,7 +144,10 @@ class Cat extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle item 2 tap
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Tortoise()),
+                );
               },
             ),
             ListTile(
@@ -146,7 +160,10 @@ class Cat extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle item 2 tap
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Fish()),
+                );
               },
             ),
             ListTile(
@@ -159,7 +176,10 @@ class Cat extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle item 2 tap
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Rabbit()),
+                );
               },
             ),
           ],
