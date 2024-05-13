@@ -110,7 +110,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     "Cat",
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     'Parrot',
@@ -152,7 +152,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     'Dog',
@@ -173,7 +173,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     'Tortoise',
@@ -194,7 +194,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     'Fish',
@@ -215,7 +215,7 @@ class HomePage extends StatelessWidget {
               ListTile(
                 title: const Padding(
                   padding: EdgeInsets.only(
-                    left: 15,
+                    left: 10,
                   ),
                   child: Text(
                     'Rabbit',
@@ -242,6 +242,7 @@ class HomePage extends StatelessWidget {
               top: 20,
               left: 15,
               right: 15,
+              bottom: 20,
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -265,14 +266,14 @@ class HomePage extends StatelessWidget {
                   height: 10,
                 ),
                 const Text(
-                  "     Pets are our friends because they bring joy and companionship into our lives. Whether it's a cuddly cat, a playful dog, or a chirping bird, pets offer unconditional love and support. They listen to our secrets without judgment and provide comfort when we're feeling down. \n      Taking care of a pet teaches responsibility and empathy. Pets make our homes happier and our hearts fuller. They remind us to appreciate the simple joys in life and to cherish the bond we share with them. ",
+                  "  Pets are our friends, companionship, and unconditional love. They listen without judgment, offering comfort in times of need. \n  Caring for them teaches responsibility and empathy, making our homes happier and hearts fuller. They remind us to appreciate life's simple joys and cherish the bonds we share.",
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 14.5,
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(
-                    top: 20,
+                    top: 10,
                   ),
                   child: Column(
                     children: [
@@ -304,7 +305,7 @@ class HomePage extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Container(
-                                    height: 120,
+                                    height: 110,
                                     width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
@@ -353,7 +354,7 @@ class HomePage extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Container(
-                                    height: 120,
+                                    height: 110,
                                     width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
@@ -403,7 +404,7 @@ class HomePage extends StatelessWidget {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Container(
-                                    height: 120,
+                                    height: 110,
                                     width: 120,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
@@ -431,7 +432,7 @@ class HomePage extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(
-                          top: 15,
+                          top: 10,
                         ),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -462,7 +463,7 @@ class HomePage extends StatelessWidget {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
-                                      height: 120,
+                                      height: 110,
                                       width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
@@ -512,7 +513,7 @@ class HomePage extends StatelessWidget {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
-                                      height: 120,
+                                      height: 110,
                                       width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(
@@ -562,7 +563,7 @@ class HomePage extends StatelessWidget {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
-                                      height: 120,
+                                      height: 110,
                                       width: 120,
                                       decoration: const BoxDecoration(
                                         image: DecorationImage(

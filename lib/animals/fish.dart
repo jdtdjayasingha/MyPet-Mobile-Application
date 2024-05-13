@@ -90,7 +90,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   "Cat",
@@ -111,7 +111,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   'Parrot',
@@ -132,7 +132,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   'Dog',
@@ -153,7 +153,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   'Tortoise',
@@ -174,7 +174,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   'Fish',
@@ -195,7 +195,7 @@ class Fish extends StatelessWidget {
             ListTile(
               title: const Padding(
                 padding: EdgeInsets.only(
-                  left: 15,
+                  left: 10,
                 ),
                 child: Text(
                   'Rabbit',
@@ -222,6 +222,7 @@ class Fish extends StatelessWidget {
             top: 20,
             left: 15,
             right: 15,
+            bottom: 20,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,

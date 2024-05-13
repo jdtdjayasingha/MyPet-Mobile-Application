@@ -222,6 +222,7 @@ class Tortoise extends StatelessWidget {
             top: 20,
             left: 15,
             right: 15,
+            bottom: 20,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
