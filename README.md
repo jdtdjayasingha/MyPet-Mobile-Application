@@ -22,3 +22,7 @@
 ✅ User-friendly interface for easy navigation and exploration of animal information. <br>
 ✅ Detailed profiles for each animal, including images, descriptions, and additional facts. <br>
 
+## LinkedIn Link
+
+https://www.linkedin.com/posts/jdtdjayasingha_flutter-appdevelopment-animals-activity-7195739682825986048-VxWM?utm_source=share&utm_medium=member_desktop
+
